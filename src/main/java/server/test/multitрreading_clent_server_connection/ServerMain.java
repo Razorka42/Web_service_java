@@ -1,4 +1,4 @@
-package server.test.multitreading_clent_server_connection;
+package server.test.multitрreading_clent_server_connection;
 
 import java.io.IOException;
 import java.net.ServerSocket;

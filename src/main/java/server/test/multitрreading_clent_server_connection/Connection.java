@@ -1,4 +1,4 @@
-package server.test.multitreading_clent_server_connection;
+package server.test.multitрreading_clent_server_connection;
 
 import java.io.*;
 import java.net.Socket;
@@ -6,8 +6,8 @@ import java.net.SocketAddress;
 
 public class Connection implements Closeable {
     private final Socket socket;
-    private BufferedReader reader;
-    private BufferedWriter writer;
+    private final BufferedReader reader;
+    private final BufferedWriter writer;
 
     public Connection(Socket socket) throws IOException {
         this.socket = socket;
