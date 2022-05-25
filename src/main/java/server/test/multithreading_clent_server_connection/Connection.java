@@ -1,4 +1,4 @@
-package server.test.multitрreading_clent_server_connection;
+package server.test.multithreading_clent_server_connection;
 
 import java.io.*;
 import java.net.Socket;
